@@ -1,0 +1,70 @@
+ko:
+  hello: "안녕"
+  activerecord:
+    attributes:
+      user:
+        name: "이름"
+        univ: "대학교"
+        dev: "희망하는 개발 부문"
+        theme: "원하는 개발 테마"
+        set_time: "제출 시간"
+        position: "참가 역할"
+    models:
+      user: "참가자"
+    errors:
+      models:
+        user:
+          attributes:
+            name:
+              blank: "항목이 비어있습니다"
+            gender: "성별"
+            birthday: "생일"
+            allow_email: "이메일수신"
+            allow_sms: "SMS수신"
+            birthday:
+              blank: "항목이 비어있습니다"
+            phone: "휴대폰번호"
+            phone:
+              blank: "항목이 비어있습니다"
+            password: "비밀번호"
+            password:
+              blank: "항목이 비어있습니다"
+            username: "닉네임"
+            username:
+              blank: "항목이 비어있습니다"
+            email:
+              blank: "항목이 비어있습니다"
+            gender:
+              blank: "항목이 비어있습니다"
+            company:
+              blank: "항목이 비어있습니다"
+            job:
+              blank: "항목이 비어있습니다"
+  time:
+    formats:
+      default: "%Y-%m-%d"
+      short: "%Y-%m-%d"
+      long: "%Y-%m-%d %H:%M"
+  date:
+    month_names:
+    -
+    - 1월
+    - 2월
+    - 3월
+    - 4월
+    - 5월
+    - 6월
+    - 7월
+    - 8월
+    - 9월
+    - 10월
+    - 11월
+    - 12월
+    formats:
+      default: "%Y-%m-%d"
+      short: "%Y-%m-%d"
+      long: "%Y-%m-%d"
+    order:
+      - :year
+      - :month
+      - :day
