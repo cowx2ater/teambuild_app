@@ -25,25 +25,4 @@ class User < ApplicationRecord
     end
     User.import(items)
   end
-
-  def self.set_array
-    self.all.each do |u|
-      if u.dev.include?("&")
-        u.dev = u.dev.split("&")
-      else
-        temp_ary = []
-        temp_ary << u.dev
-        u.dev = temp_ary
-      end
-
-      if u.theme.include?(",")
-        u.theme = u.theme.split(",")
-      else
-        temp_ary = []
-        temp_ary << u.theme
-        u.theme = temp_ary
-      end
-      u.save
-    end
-  end
 end
