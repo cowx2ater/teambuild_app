@@ -11,7 +11,21 @@
 @import "active_admin/mixins";
 @import "active_admin/base";
 
+@import "active_admin_flat_skin";
+@import "font-awesome";
+
+
+
+
+
+
 // Overriding any non-variable SASS must be done after the fact.
 // For example, to change the default status-tag color:
 //
-//   .status_tag { background: #6090DB; }
+  .백엔드 { background: #6090DB; }
+  .프론트엔드 { background: rgb(226, 23, 23)}
+  .일상을벗어나자 { background: #5fc9d0}
+  .대학교육프로세스개선 { background: #5fb020}
+  .사회공헌배워서남주자 { background: rgb(200, 61, 208)}
+  .가정의달 {background: #757a17}
+  .더나은멋사를위하여 {background: rgb(252, 171, 14)}
