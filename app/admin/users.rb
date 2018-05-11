@@ -1,6 +1,7 @@
 ActiveAdmin.register User do
   index do
     selectable_column
+    column :id
     column :name
     column :univ
     column :dev do |obj|
@@ -17,8 +18,9 @@ ActiveAdmin.register User do
       end
       nil
     end
+    column :team
     column :position
-    # actions
+    actions
   end
 # See permitted parameters documentation:
 # https://github.com/activeadmin/activeadmin/blob/master/docs/2-resource-customization.md#setting-up-strong-parameters
